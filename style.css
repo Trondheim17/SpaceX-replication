@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.page1 {
+    background-image: url(https://www.spacex.com/static/images/backgrounds-new/Turk5A-3302.webp);
+    background-size: cover;
+}
+
+.nav-item {
+    margin:  40px 10px;
+    color: #f6f6f6;
+    font-size: 13px;
+}
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    /* background-image: url(https://png.pngitem.com/pimgs/s/678-6781246_spacex-hd-png-download.png); */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
