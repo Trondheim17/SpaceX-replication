@@ -1,35 +1,70 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 .background {
     width: 100vw;
-    height: 100vh;
-    display: flex;
+    height: 110vh;
 }
 
 .page1 {
     background-image: url(https://www.spacex.com/static/images/backgrounds-new/Turk5A-3302.webp);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: none;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
 
 .nav-item {
     margin:  40px 10px;
     color: #f6f6f6;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.header {
+header {
     width: 100vw;
-    height: 10vh;
+    height: 75px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
-    position: relative;
-    /* background-image: url(https://png.pngitem.com/pimgs/s/678-6781246_spacex-hd-png-download.png); */
+    position: fixed;
+    
 }
 
-.nav-links {
+nav {
+    width: 50%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    position: relative;
+    right: 150px;
 }
+
+.info{
+    color: white;
+    width: 70%;
+    height: 200px;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.logo {
+    background-image: url(https://www.jetcityit.com/wp-content/uploads/2019/12/spacex-logo-black-and-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+}
+
+
